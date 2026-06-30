@@ -26,5 +26,8 @@
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
   "FakeDNS": "true",
-  "UseChunkFiles": "false"
+  "UseChunkFiles": "false",
+  "defaultPingProtocol": "tcp",
+  "defaultSortOrder": "name",
+  "pingOnUpdate": true
 }
