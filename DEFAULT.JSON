@@ -1,0 +1,30 @@
+{
+  "Name": "POZOR.PW",
+  "GlobalProxy": "true",
+  "RouteOrder": "block-direct-proxy",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://1.1.1.1/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geosite.dat",
+  "LastUpdated": "1781119017",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:wl-ru",
+    "geosite:private"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:wl-ru"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "true",
+  "UseChunkFiles": "false"
+}
